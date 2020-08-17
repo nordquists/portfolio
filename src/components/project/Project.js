@@ -3,7 +3,6 @@ import Image from 'gatsby-image'
 import styled from 'styled-components';
 
 const Img = styled(Image)`
-
 `
 
 const ProjectLink = styled.a`
@@ -16,7 +15,7 @@ const ProjectLink = styled.a`
 
 const CardWrapper = styled.div`
     width: 100%;
-    max-width: 25rem;
+    // max-width: 25rem;
 `
 
 const Heading = styled.div`

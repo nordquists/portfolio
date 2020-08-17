@@ -6,8 +6,8 @@ import Project from '../project/Project';
 const ProjectWrapper = styled.div`
     display: grid;
     grid-template-columns: 1fr 1fr;
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 40px;
+    row-gap: 40px;
 
     ${media.lessThan("medium")`
         margin-left: auto;
