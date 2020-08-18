@@ -27,9 +27,11 @@ export const ProjectGrid = ({ projects }) => {
                     const description = project.description;
                     const imageData = project.image.childImageSharp.fluid;
                     const urls = project.urls;
+                    const key = project.key;
 
                     return (
-                        <Project 
+                        <Project
+                        key={key}
                         title={title}
                         description={description}
                         imageData={imageData}

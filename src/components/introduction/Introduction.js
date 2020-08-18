@@ -65,18 +65,6 @@ const Link = styled.a`
     transition: 200ms;
     text-decoration: none;
 
-    // text-shadow:
-    // -2px -2px white,
-    // -2px 2px white,
-    // 2px -2px white,
-    // 2px 2px white;
-
-    // background-size: 1px 1em;
-    // box-shadow:
-    // inset 0 -0.175em white,
-    // inset 0 -0.2em #000;
-    // display: inline;
-
     &:hover {
         color: #3FA9F5;
     }

@@ -1,10 +1,7 @@
 import React from "react"
 import { graphql, useStaticQuery } from 'gatsby';
-import media from "styled-media-query";
 import Layout from "../components/layouts/layout"
 import ProjectGrid from "../components/project-grid/ProjectGrid";
-
-import styled from 'styled-components';
 import { Introduction } from "../components/introduction/Introduction";
 import { Footer } from "../components/footer/Footer";
 
@@ -19,6 +16,7 @@ export default function Home() {
             title
             description
             urls
+            key
             image {
               childImageSharp {
                 fluid {

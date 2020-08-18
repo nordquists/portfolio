@@ -1,6 +1,7 @@
 import React from 'react'
 import styled from 'styled-components';
 import { Footer } from '../footer/Footer';
+import { Helmet } from "react-helmet"
 
 const LayoutStyled = styled.div`
     width: calc(100% - 6rem);
@@ -28,8 +29,12 @@ const Header = styled.header`
 export const Layout = ({ children }) => {
     return (
         <LayoutStyled>
+            <Helmet>
+                <meta charSet="utf-8" />
+                <title>Sean Nordquist</title>
+                <link rel="canonical" href="https://www.nordquists.com" />
+            </Helmet>
             <main id="main-content">{ children }</main>
-            {/* <Footer/> */}
         </LayoutStyled>
     )
 }
