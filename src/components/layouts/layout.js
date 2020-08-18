@@ -45,7 +45,7 @@ export const Layout = ({ children }) => {
                         "alumniOf": "New York University",
                         "sameAs": [
                             "https://www.linkedin.com/in/seannordquist/",
-                            "https://github.com/nordquists",
+                            "https://github.com/nordquists"
                         ]
                         }
                     `}
