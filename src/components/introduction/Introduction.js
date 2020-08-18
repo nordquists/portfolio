@@ -92,7 +92,7 @@ export const Introduction = () => {
                 Sean Nordquist
             </Name>
             <Description>
-                I am Computer Science and Economics Student at New York University. Currently, I am helping people enjoy memorizing with <Link>Cram.</Link>
+                I am a Computer Science and Economics Student at New York University. Currently, I am helping people enjoy memorizing with <Link href="#">Cram.</Link>
             </Description>
             <LinksWrapper>
                 <Link href="mailto:sean@nordquists.com">sean@nordquists.com</Link>
