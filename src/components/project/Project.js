@@ -86,7 +86,7 @@ const Link = styled.a`
 const Project = ({ title, description, imageData, urls }) => {
     return (
         <CardWrapper>
-            <ProjectLink href={urls[0][1]}>
+            <ProjectLink href={urls[1][1]}>
                 <Img fluid={imageData} alt={title}/>
                 <Heading>
                     <Title>
