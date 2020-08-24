@@ -2,15 +2,15 @@
     {
         "key": "1",
         "title": "Cram",
-        "description": "A study-aid web application that uses a custom-tuned SM-2 variant algorithm",
-        "urls": [["View on Github", "https://github.com/nordquists/cram-client"], ["View Live", "#"]],
-        "image": "./images/rectangle.png"
+        "description": "A study-aid web application using a spaced repetition algorithm",
+        "urls": [["View on Github", "https://github.com/nordquists/cram"], ["View Live", "https://www.usecram.com/"]],
+        "image": "./images/cram.png"
     },
     {
         "key": "2",
         "title": "Sustain",
-        "description": "A real-time computer vision powered ingredient analyzer for detecting unsustainable ingredients",
-        "urls": [["View on Github", "https://github.com/nordquists/sustain-app"], ["View Live", "#"]],
-        "image": "./images/rectangle.png"
+        "description": "A real-time computer vision powered ingredient label analyzer for detecting unsustainable ingredients",
+        "urls": [["View on Github", "https://github.com/nordquists/sustain"], ["View Live", "https://sustain.nordquists.com/"]],
+        "image": "./images/sustain.png"
     }
 ]
