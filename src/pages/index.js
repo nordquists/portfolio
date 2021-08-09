@@ -2,6 +2,7 @@ import * as React from "react"
 import { Bio, Container, ProjectGrid } from "../components"
 import { graphql, useStaticQuery } from 'gatsby'
 import { Helmet } from "react-helmet"
+import favicon from '../../static/favicon.ico'
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -45,6 +46,7 @@ const IndexPage = () => {
               <meta name="Description" content="Sean Nordquist is a developer studying Computer Science and Economics at New York University."/>
               <title>Sean Nordquist</title>
               <link rel="canonical" href="https://www.nordquists.com" />
+              <link rel="icon" href={favicon} />
               <script type="application/ld+json">
                   {`
                       {
