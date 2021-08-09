@@ -1,5 +1,5 @@
 import axios from 'axios'
-import constants from './constants'
+import constants from './Constants'
 
 export function getQueryParameters (name, url) {
   if (!url) url = window.location.href
