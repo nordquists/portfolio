@@ -1,0 +1,9 @@
+{
+    "key": "3",
+    "title": "Truecaser",
+    "description": "A real-time computer vision powered ingredient label analyzer for detecting unsustainable ingredients",
+    "link": "/truecaser",
+    "image": "../images/truecaser2.png",
+    "margin": "50px 50px 50px 50px",
+    "color": "#50669F"
+},

@@ -1,0 +1,35 @@
+[
+    {
+        "key": "2",
+        "title": "FourKnights",
+        "description": "A spaced repetition tool to help you learn and build new chess repertoires",
+        "link": "https://fourknights.nordquists.com",
+        "image": "../images/fourknights.png",
+        "margin": "0;",
+        "color": "#F1BF84",
+        "wideImage": "../images/fourknights_wide.png",
+        "wide": true
+    },
+    {
+        "key": "1",
+        "title": "Cram",
+        "description": "A study-aid web application using a spaced repetition algorithm",
+        "link": "https://usecram.com",
+        "image": "../images/cram6.png",
+        "margin": "60px 30px 0px 30px",
+        "color": "#437FA0",
+        "wideImage": "../images/cram6.png",
+        "wide": false
+    },
+    {
+        "key": "4",
+        "title": "Sustain",
+        "description": "A real-time computer vision powered ingredient label analyzer for detecting unsustainable ingredients",
+        "link": "https://github.com/nordquists/sustain",
+        "image": "../images/sustain.png",
+        "margin": "60px 30px 0px 30px",
+        "color": "#7DA37A",
+        "wideImage": "../images/cram6.png",
+        "wide": false
+    }
+]
